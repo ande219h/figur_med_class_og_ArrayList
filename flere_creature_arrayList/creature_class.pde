@@ -1,13 +1,13 @@
 class Creature {
   float x;
   float y;
-  float size;
-  float speedX;
-  float speedY;
-  float scale;
-  float r;
-  float g;
-  float b;
+  float size=random(11, 299);
+  float speedX=random(-1.5, 1.5);
+  float speedY=random(-1.5, 1.5);
+  float scale=random(0.99, 1.015);
+  float r=random(0,255);
+  float g=random(0,255);
+  float b=random(0,255);;
 
   void figur(float x, float y, float size) {
     fill (r,g,b);
