@@ -1,6 +1,6 @@
 class Creature {
-  float x;
-  float y;
+  float x=mouseX;
+  float y=mouseY;
   float size=random(11, 299);
   float speedX=random(-1.5, 1.5);
   float speedY=random(-1.5, 1.5);

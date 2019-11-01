@@ -6,8 +6,6 @@ void setup() {
 
 void mousePressed() {
   Creature k=new Creature();
-  k.x=mouseX;
-  k.y=mouseY;
   list.add(k);
 }
 void draw() {
